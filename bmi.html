@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BMI Calculator</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+
+</head>
+<body>
+    <header class="navbar">
+        <div class="logo">HealthTools</div>
+        <nav>
+          <ul>
+            <li><a href="bmi.html">BMI Calculator</a></li>
+            <li><a href="bp.html">Blood Pressure</a></li>
+            <li><a href="sugar.html">Sugar Levels</a></li>
+            <li><a href="calorie.html">Calorie Needs</a></li>
+          </ul>
+        </nav>
+    </header>
+    <main class="container">
+    <div class="Containor">
+        <h1>BMI Calculator</h1>
+        
+        <p>Enter your height (in cm)</p>
+        <input type="number" id="height" placeholder="e.g. 170">
+
+        <p>Enter your weight (in kg)</p>
+        <input type="number" id="weight" placeholder="e.g. 65">
+
+        <button id="btn">Calculate</button>
+
+        <div id="result"></div>
+    </div>
+    </main>
+    <script src="script.js"></script>
+</body>
+</html>
